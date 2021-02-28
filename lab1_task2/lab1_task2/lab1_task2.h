@@ -1,0 +1,1 @@
+int sumOfDigits(int number);
