@@ -6,6 +6,7 @@ jobs:
     steps:
       - run: sudo apt install g++
       - run: sudo apt install make
+      - run: ls
       - run: cd lab1_task2
       - run: cd lab1_task2
       - run: make
