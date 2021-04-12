@@ -7,4 +7,4 @@ jobs:
       - run: sudo apt install g++
       - run: sudo apt install make
       - working-directory: ./lab2_task1/lab2_task1
-        run: make
+        run: g++ src\main.c src\lab2_task1.c -o bin\program.exe
