@@ -10,7 +10,6 @@
 
 
 using namespace std;
-
 string GetStudentName() {
     string name;
     cout << "Enter your second name here: ";
