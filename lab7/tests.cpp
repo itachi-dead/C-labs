@@ -32,12 +32,15 @@ void main_test() {
 	assert(str.empty()?0:1);
 	
 	int scores = 0;
+	printf("\nEnter all 1\n");
 	int t = test();
-	assert(t == 40);
+	assert(t == 20);
+	printf("\nEnter all 2\n");
+	t = test();
+	assert(t == 20);
+	printf("\nEnter all 3\n");
 	t = test();
 	assert(t == 10);
-	t = test();
-	assert(t == 0);
 	printf("Got it\n");
 }
 
